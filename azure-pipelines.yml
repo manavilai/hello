@@ -23,6 +23,7 @@ stages:
     - task: Maven@3
       inputs:
         mavenPomFile: 'pom.xml'
+        options: -DskipTests
         goals: 'install'
         publishJUnitResults: false
         javaHomeOption: 'JDKVersion'
