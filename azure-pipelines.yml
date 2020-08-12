@@ -37,3 +37,4 @@ stages:
         repository: 'hello-app'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
+        tags:  manavilai/hello-app
